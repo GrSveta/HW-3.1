@@ -1,0 +1,33 @@
+body * {
+  background: green;
+  color: black;
+  margin: 5px;  
+  padding: 5px;
+  border: 3px solid;
+  display:block;
+ }
+body * *{
+  background: yellow;
+  margin: 5px;  
+  padding: 5px;
+  border: 2px solid black;
+}
+body * * *{
+  background: brown;
+  color: white;
+  margin: 5px;  
+  padding: 5px;
+  border: 2px solid black;
+}
+body * * * *{
+  background: blue;
+  margin: 5px;  
+  padding: 5px;
+  border: 2px solid black;
+}
+body * * * * *{
+  background: red;
+  margin: 5px;  
+  padding: 5px;
+  border: 2px solid black;
+}
